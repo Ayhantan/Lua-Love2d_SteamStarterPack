@@ -20,43 +20,37 @@ Designed to eliminate boilerplate and let you focus on gameplay.
 
 ## 📂 Klasör Yapısı / Folder Structure
 
-LuaSteamStarterPack/
-│
-├─ assets/
-│ ├─ fonts/ → Fontlar / Fonts
-│ ├─ image/ → Görseller / Images
-│ ├─ lang/ → Dil dosyaları / Language files
-│ ├─ music/ → Müzikler / Music
-│ └─ sounds/ → Ses efektleri / SFX
-│
-├─ src/
-│ ├─ conf.lua → Love2D config
-│ ├─ main.lua → Ana giriş / Main entry
-│ │
-│ ├─ core/
-│ │ ├─ game.lua → State manager
-│ │ ├─ input.lua → Input sistemi / Input system
-│ │ ├─ scale.lua → Resolution scaling / Letterbox
-│ │ ├─ settings.lua → Ayarlar / Settings
-│ │ ├─ save.lua → Save / Load
-│ │ ├─ config.lua → Global config
-│ │ ├─ audio.lua → Ses yönetimi / Audio
-│ │ ├─ localization.lua → Çoklu dil / Multi-language
-│ │ ├─ logger.lua → Log sistemi / Logger
-│ │ ├─ json.lua → JSON wrapper
-│ │ └─ dkjson.lua → JSON encoder/decoder
-│ │
-│ ├─ states/
-│ │ ├─ boot.lua → Başlangıç / Init state
-│ │ ├─ menu.lua → Ana menü / Main menu
-│ │ ├─ settings.lua → Ayarlar menüsü / Settings menu
-│ │ └─ game.lua → Oyun state’i / Game state
-│ │
-│ └─ locale/
-│ ├─ en.lua → İngilizce / English
-│ └─ tr.lua → Türkçe / Turkish
-│
-└─ launch.json → VS Code debug ayarı
+- **LuaSteamStarterPack/**
+  - **assets/**
+    - `fonts/` → Fontlar / Fonts
+    - `image/` → Görseller / Images
+    - `lang/` → Dil dosyaları / Language files
+    - `music/` → Müzikler / Music
+    - `sounds/` → Ses efektleri / SFX
+  - **src/**
+    - `conf.lua` → Love2D config
+    - `main.lua` → Ana giriş / Main entry
+    - **core/**
+      - `game.lua` → State manager
+      - `input.lua` → Input sistemi / Input system
+      - `scale.lua` → Resolution scaling / Letterbox
+      - `settings.lua` → Ayarlar / Settings
+      - `save.lua` → Save / Load
+      - `config.lua` → Global config
+      - `audio.lua` → Ses yönetimi / Audio
+      - `localization.lua` → Çoklu dil / Multi-language
+      - `logger.lua` → Log sistemi / Logger
+      - `json.lua` → JSON wrapper
+      - `dkjson.lua` → JSON encoder/decoder
+    - **states/**
+      - `boot.lua` → Başlangıç / Init state
+      - `menu.lua` → Ana menü / Main menu
+      - `settings.lua` → Ayarlar menüsü / Settings menu
+      - `game.lua` → Oyun state’i / Game state
+    - **locale/**
+      - `en.lua` → İngilizce / English
+      - `tr.lua` → Türkçe / Turkish
+  - `launch.json` → VS Code debug ayarı
 ---
 
 ## 🚀 Özellikler / Features
@@ -93,17 +87,9 @@ LuaSteamStarterPack/
 
 ---
 
-## 🖼️ Örnek / Screenshot
-
-> Ekran görüntüsü buraya eklenebilir / Screenshot can be added here
-
-![Example Screenshot](https://via.placeholder.com/600x300.png?text=LuaSteamStarterPack+Screenshot)
-
----
-
 ## 📜 Lisans / License
 
-MIT License – istediğin gibi kullanabilirsin, referans yeterli. / MIT License – free to use, credit appreciated.
+istediğin gibi kullanabilirsin, referans yeterli. / MIT License – free to use, credit appreciated.
 
 ---
 
